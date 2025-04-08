@@ -3,7 +3,7 @@ set -e
 
 case "$1" in
     remove)
-        # Restore original Calamares icon 
+        # Restore original Calamares icon
         dpkg-divert --quiet --rename --package calamares-settings-debian \
                     --remove /usr/share/applications/calamares.desktop
     ;;
