@@ -1,47 +1,37 @@
-calamares-settings-debian (13.1.4-1) unstable; urgency=medium
+calamares-settings-debian (13.0.13-1) unstable; urgency=medium
 
-  * New upstream version (local package).
+  * New upstream relese
+    - Fix support url (Closes: #1109232)
 
- -- Patrick Schleizer <adrelanos@whonix.org>  Tue, 08 Apr 2025 14:06:00 +0000
+ -- Jonathan Carter <jcc@debian.org>  Sun, 13 Jul 2025 23:52:19 +0200
 
-calamares-settings-debian (13.1.3-1) unstable; urgency=medium
+calamares-settings-debian (13.0.12-2) unstable; urgency=medium
 
-  * New upstream version (local package).
+  * Add rsync as a dependency (Closes: #1080188)
 
- -- Patrick Schleizer <adrelanos@whonix.org>  Mon, 06 Jan 2025 13:11:43 +0000
+ -- Jonathan Carter <jcc@debian.org>  Mon, 06 Jan 2025 12:03:48 +0200
 
-calamares-settings-debian (13.1.2-1) unstable; urgency=medium
+calamares-settings-debian (13.0.12-1) unstable; urgency=medium
 
-  * New upstream version (local package).
+  * New upstream release
+    - Includes initial Caretopsia artwork for Trixie
+    - Support more than one value for the media path
+      (Closes: #1089618)
 
- -- Patrick Schleizer <adrelanos@whonix.org>  Thu, 29 Aug 2024 11:35:55 +0000
+ -- Jonathan Carter <jcc@debian.org>  Fri, 20 Dec 2024 15:01:36 +0200
 
-calamares-settings-debian (13.1.1-1) unstable; urgency=medium
+calamares-settings-debian (13.0.11-1) unstable; urgency=medium
 
-  * New upstream version (local package).
+  * New upstream release
+    - Make script names less generic and namespace (Closes: #1021156)
 
- -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 28 Aug 2024 11:00:31 +0000
-
-calamares-settings-debian (13.1.0-1) unstable; urgency=medium
-
-  * New upstream version (local package).
-
- -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 28 Aug 2024 09:47:54 +0000
+ -- Jonathan Carter <jcc@debian.org>  Fri, 23 Aug 2024 17:48:32 +0200
 
 calamares-settings-debian (13.0.9-1) unstable; urgency=medium
 
-  * New upstream version (local package).
+  * New upstream release (Closes: #1037123, #1001192)
 
- -- Patrick Schleizer <adrelanos@whonix.org>  Wed, 28 Aug 2024 09:43:53 +0000
-
-calamares-settings-debian (13.0.8-1~bpo12+1) bookworm-backports; urgency=medium
-
-  * Backport to Bookworm. (#1076740)
-    * scripts/sources-final: Specify release as bookworm rather than trixie.
-    * scripts/sources-media: Specify release as bookworm rather than trixie.
-    * debian/control: Depend on Calamares 3.3.8-1 or newer.
-
- -- Aaron Rainbolt <arraybolt3@ubuntu.com>  Sun, 18 Aug 2024 05:46:20 -0500
+ -- Jonathan Carter <jcc@debian.org>  Thu, 22 Aug 2024 18:54:20 +0200
 
 calamares-settings-debian (13.0.8-1) unstable; urgency=medium
 
