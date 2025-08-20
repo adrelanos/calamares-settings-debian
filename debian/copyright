@@ -3,7 +3,7 @@ Upstream-Name: calamares-settings-debian
 Source: https://gitlab.com/highvoltage/calamares-settings-debian
 
 Files: *
-Copyright: 2016-2023, Jonathan Carter <jcc@debian.org>
+Copyright: 2016-2024, Jonathan Carter <jcc@debian.org>
 License: ISC
 
 Files: calamares/branding/debian/*png
@@ -31,9 +31,8 @@ License: GPL-2+
  details.
  .
  You should have received a copy of the GNU General Public
- License along with this package; if not, write to the Free
- Software Foundation, Inc., 51 Franklin St, Fifth Floor,
- Boston, MA  02110-1301 USA
+ License along with this package; if not, see
+ https://www.gnu.org/licenses/.
  .
  On Debian systems, the full text of the GNU General Public
  License version 2 can be found in the file
