@@ -3,4 +3,4 @@ type:       "job"
 name:       "sources-media-unmount"
 interface:  "process"
 command:    "/usr/share/calamares/helpers/calamares-sources-media -u"
-timeout:    600
+timeout:    1200
