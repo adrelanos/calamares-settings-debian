@@ -3,4 +3,4 @@ type:       "job"
 name:       "sources-final"
 interface:  "process"
 command:    "/usr/share/calamares/helpers/calamares-sources-final"
-timeout:    600
+timeout:    1200
