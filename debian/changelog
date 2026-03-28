@@ -1,3 +1,9 @@
+calamares-settings-debian (13.1.8-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@whonix.org>  Sat, 28 Mar 2026 09:41:55 +0000
+
 calamares-settings-debian (13.1.7-1) unstable; urgency=medium
 
   * New upstream version (local package).
