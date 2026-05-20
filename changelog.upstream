@@ -1,3 +1,9 @@
+commit 54b47bc6b34d0ae55e3b1edf7e200b105f447d28
+Author: Patrick Schleizer <adrelanos@whonix.org>
+Date:   Sat Mar 28 09:41:55 2026 +0000
+
+    bumped changelog version
+
 commit 80be28196f26027bf7c2e486d362abe1593ca47e
 Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Sat Mar 28 05:30:10 2026 -0400
@@ -125,9 +131,9 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Thu Aug 29 07:35:18 2024 -0400
 
     remove versioned `Depends:` on `calamares`
-    
+
     to fix build issue
-    
+
     The following packages have unmet dependencies:
      calamares-settings-debian : Depends: calamares (>= 3.3.8-1~) but 3.2.61-1+b1 is to be installed
     E: Unable to correct problems, you have held broken packages.
@@ -143,7 +149,7 @@ Author: Patrick Schleizer <adrelanos@whonix.org>
 Date:   Wed Aug 28 06:59:37 2024 -0400
 
     fix
-    
+
     Delete unnecessary and by "genmkfile debdistfile" auto generated
     debian/calamares-settings-debian.install file which resulted in
     an empty package.
@@ -329,9 +335,9 @@ Author: Jonathan Carter <jcc@debian.org>
 Date:   Fri Feb 18 09:13:41 2022 +0000
 
     Merge branch 'lintian-fixes' into 'master'
-    
+
     Fix some issues reported by lintian
-    
+
     See merge request live-team/calamares-settings-debian-packaging!1
 
 commit a485f47a541868a86d8c2cecdba37efd61c5df2b
@@ -339,7 +345,7 @@ Author: Debian Janitor <janitor@jelmer.uk>
 Date:   Tue Oct 12 20:09:16 2021 +0000
 
     Update standards version to 4.6.0, no changes needed.
-    
+
     Changes-By: lintian-brush
     Fixes: lintian: out-of-date-standards-version
     See-also: https://lintian.debian.org/tags/out-of-date-standards-version.html
@@ -349,7 +355,7 @@ Author: Debian Janitor <janitor@jelmer.uk>
 Date:   Tue Oct 12 20:09:15 2021 +0000
 
     Set upstream metadata fields: Repository, Repository-Browse.
-    
+
     Changes-By: lintian-brush
     Fixes: lintian: upstream-metadata-file-is-missing
     See-also: https://lintian.debian.org/tags/upstream-metadata-file-is-missing.html
